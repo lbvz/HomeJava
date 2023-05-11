@@ -7,12 +7,12 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-public class AppData_1 {
+public class AppData {
 
     private 銀行 c;
     private final String filename;
 
-    public AppData_1(){
+    public AppData(){
         filename = "app.data";
     }
 

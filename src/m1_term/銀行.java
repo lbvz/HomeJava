@@ -11,7 +11,7 @@ public class 銀行 implements Serializable {
 
     public 銀行(){
         this.客戶們 = new ArrayList();
-        System.out.println("銀行 建構完成");
+        System.out.println("--------- 銀行建構完成 ---------");
     }
 
     public void 加入客戶(客戶 x){
@@ -20,7 +20,7 @@ public class 銀行 implements Serializable {
     }
 
     public void 顯示資料(){
-        System.out.println("----------" + this.名稱 + "顯示資料 ----------");
+        System.out.println("========== " + this.名稱 + " ==========");
         for (客戶 x :客戶們){
             System.out.println(x.toString());
         }

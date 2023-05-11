@@ -19,6 +19,6 @@ public class 客戶 implements Serializable {
     }
     @Override
     public String toString(){
-        return "name=" + name + ", 一般帳戶=" + 一般帳戶 + ", 基金帳戶=" +基金帳戶;
+        return "**** 客戶 : " + name + "   < 一般帳戶 : $" + 一般帳戶 + " 元 >" + "   < 基金帳戶 : $" +基金帳戶 +" 元 > ****";
     }
 }
